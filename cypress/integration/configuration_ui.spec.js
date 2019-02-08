@@ -6,7 +6,7 @@ describe('Swarm Tests', function() {
   it('Creates a new swarm', function() {
 
     // Arrange
-    cy.visit('http://localhost:3000/#/swarms/create')
+    cy.visit('swarms/create')
 
     // Act
     // select the owner
